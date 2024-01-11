@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.text-font{
+    color: white;
+    font-size: large;
+}
+.homebox{
+    display: flex;
+    flex-direction: column;
+}
+
+.name{
+    color: white;
+    padding: 20px;
+}
+
+.heading{
+    font-size: large;
+}
+
+.abc{
+    
+    text-align: start;
+}
+
+
+a:hover{
+    color: red;
+}
+.searchbtn:hover{
+    background-color: rgb(128, 84, 210);
+    color: white;
+}
+/* @media only screen and (max-width: 767px) {
+  .custom-container {
+    margin-top: 0;
+  }
+} */
